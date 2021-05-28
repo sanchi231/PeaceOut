@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react';
 import Signup from './Signup';
 import '../App.css';
@@ -18,3 +19,16 @@ function Navbar() {
     )
 }
 export default Navbar
+=======
+import React from 'react'
+
+function Navbar() {
+    return (
+        <div>
+            Nvbar
+        </div>
+    )
+}
+
+export default Navbar
+>>>>>>> main
