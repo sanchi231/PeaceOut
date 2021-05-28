@@ -1,16 +1,18 @@
-import React from 'react'
-
+import React from 'react';
+import './App.css';
 import Navbar from './components/Navbar';
+import Homepage from './components/Homepage';
 import Footer from './components/Footer';
 
-function App(props) {
+
+function App() {
   return (
-    <div>
-      <Navbar />
-      {props.children}
+    <div className="App">
+      <Navbar/>
+      <Homepage />
       <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -1,3 +1,4 @@
+/* navbar section*/
 .App {
   text-align: center;
 }
@@ -27,6 +28,48 @@
 .App-link {
   color: #61dafb;
 }
+
+/* main section */
+.main {
+  background-color: turquoise;
+}
+
+.main>h3 {
+  margin-bottom: 30px;
+  padding-top: 30px;
+  font-size: 5vh;
+}
+
+.exercise-container a{
+  list-style: none;
+}
+.exercise-container li{
+  padding: 0.8em;
+}
+
+.exercise-container button{
+  border: none;
+  padding: 1em;
+  font-size: 18px;
+  border-radius: 5px;
+  font-weight:600;
+  width: 50vw;
+}
+
+.exercise-container button:hover {
+  cursor: pointer;
+}
+
+/* footer section*/
+.footer {
+  background-color: #111;
+  color: whitesmoke;
+  padding: 10px;
+  letter-spacing: 0.1em;
+  font-size: 16px;
+  font-weight: 600;
+}
+
 
 @keyframes App-logo-spin {
   from {
