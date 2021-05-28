@@ -19,23 +19,3 @@ code {
 }
 
 
-
-.exercise-container a{
-  list-style: none;
-}
-.exercise-container li{
-  padding: 0.8em;
-}
-
-.exercise-container button{
-  border: none;
-  padding: 1em;
-  font-size: 18px;
-  border-radius: 5px;
-  font-weight:600;
-  width: 50vw;
-}
-
-.exercise-container button:hover {
-  cursor: pointer;
-}
