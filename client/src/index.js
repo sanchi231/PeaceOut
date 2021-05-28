@@ -2,7 +2,29 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+
+import Homepage from './components/Homepage';
+import Signup from './components/Signup';
+import NotFound from './components/NotFound';
+import Activity from './components/Activity';
+
+
+
+const routing = (
+  <Router>
+    <Switch>
+      <App>
+        <Route exact path="/" component={Homepage} />
+        <Route exact path="/signup" component={Signup} />
+        <Route exact path="/activity/:id" component={Activity} />
+        <Route exact path="/notfound" component={NotFound} />
+      </App>
+    </Switch>
+  </Router>
+)
+
 import reportWebVitals from './reportWebVitals';
+
 
 ReactDOM.render(
   <React.StrictMode>
