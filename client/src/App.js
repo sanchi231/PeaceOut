@@ -1,9 +1,14 @@
 import React from 'react'
 
-function App() {
+import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+
+function App(props) {
   return (
     <div>
-      App
+      <Navbar />
+      {props.children}
+      <Footer />
     </div>
   )
 }
