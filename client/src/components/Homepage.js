@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import React from 'react';
 import Exercises from '../components/Exercises';
 import '../App.css';
@@ -38,16 +37,4 @@ function Homepage() {
     )
 }
 export default Homepage
-=======
-import React from 'react'
 
-function Homepage() {
-    return (
-        <div>
-            Homepage
-        </div>
-    )
-}
-
-export default Homepage
->>>>>>> main

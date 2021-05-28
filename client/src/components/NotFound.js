@@ -7,9 +7,6 @@ function NotFound() {
         </div>
     )
 }
-<<<<<<< HEAD
-export default NotFound
-=======
 
 export default NotFound
->>>>>>> main
+
