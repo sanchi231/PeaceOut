@@ -1,18 +1,19 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
-import Homepage from './components/Homepage';
 import Footer from './components/Footer';
 
 
-function App() {
-  return (
-    <div className="App">
-      <Navbar/>
-      <Homepage />
-      <Footer />
-    </div>
-  );
+export class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <Navbar />
+        {this.props.children}
+        <Footer />
+      </div>
+    )
+  }
 }
 
 export default App;
