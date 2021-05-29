@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://<username>:<password>@mongoapp.1wt4s.mongodb.net/<databasename>?retryWrites=true&w=majority",
+    "jwtSecret": "mykey"
+}
