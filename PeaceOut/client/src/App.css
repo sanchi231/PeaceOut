@@ -1,0 +1,85 @@
+/* navbar section*/
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:space-between;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-header>h1 {
+  /* color: #61dafb; */
+  color: whitesmoke;
+}
+
+.App-header>p {
+  margin-top: -50px;
+}
+/* main section */
+.main {
+  background-color: turquoise;
+}
+
+.main>h3 {
+  margin-bottom: 30px;
+  padding-top: 30px;
+  font-size: 5vh;
+}
+
+.exercise-container a{
+  list-style: none;
+}
+.exercise-container li{
+  padding: 0.8em;
+}
+
+.exercise-container button{
+  border: none;
+  padding: 1em;
+  font-size: 18px;
+  border-radius: 5px;
+  font-weight:600;
+  width: 50vw;
+}
+
+.exercise-container button:hover {
+  cursor: pointer;
+}
+
+/* footer section*/
+.footer {
+  background-color: #111;
+  color: whitesmoke;
+  padding: 10px;
+  letter-spacing: 0.1em;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
