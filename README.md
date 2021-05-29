@@ -18,7 +18,7 @@ Mental Health includes various factors such as Meditation, Breathing Exercises, 
 
 :three: React + Redux
 
-:four: MySQL
+:four: MongoDB
 
 
 ## :arrow_right: Get Started
