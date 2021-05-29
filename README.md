@@ -1,6 +1,6 @@
 # Peace Out ☮️🧠
 
-This is a webapp which is designed on the theme of Mental Awareness.
+This is a webapp which is designed on the theme of Mental Health Awareness.
 
 ## Inspiration
 
