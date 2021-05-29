@@ -23,6 +23,17 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  margin: 10px;
+  padding: 10px;
+}
+
+.App-header img{
+  height: 50vh;
+  margin-bottom: 30px;
+}
+
+.App-header h1{
+  color: whitesmoke;
 }
 
 .App-link {
@@ -35,6 +46,7 @@
 }
 
 .main>h3 {
+  margin-left: 10px;
   margin-bottom: 30px;
   padding-top: 30px;
   font-size: 5vh;

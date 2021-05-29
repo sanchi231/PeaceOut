@@ -7,7 +7,7 @@ function Homepage() {
         <div className="main">
 
             <header className="App-header">
-                {/* logo */}
+                <img src="https://static.businessworld.in/article/article_extra_large_image/1594706806_YvmZn4_meditation_zen_chan_yoga_yyMZVch_FKTpxWP.jpg"/>
                 <h1>Peace Out</h1><br />
                 <p>Peace of mind allows positive mental health.</p><br />
                 <p>So let's dive into peace!!!</p><br />
